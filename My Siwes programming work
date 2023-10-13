@@ -1,0 +1,22 @@
+# Create a dictionary with categories as keys and lists of subjects as values
+print ("UNIFIED SCHEME OF WORK FOR LAGOS STATE  JUNIOR SECONDARY SCHOOL\nTABLE OF CONTENTS")
+input ( "enter subject category:")
+compulsory=["1.English\n","2.mathematics\n","3.social studies\n","4.civic education\n"]
+
+for item in compulsory:
+  print (item)
+
+print("MOVE TO THE NEXT CATEGORY \n")
+input ( "enter next category please!:")
+science_and_mathematics=["1.Agric.science\n","2.biology\n","3.chemistry\n","4.further mathematics\n","5.Health education\n","6.physical education\n","7.physics\n"]
+
+for item in science_and_mathematics:
+  print (item)
+
+print("MOVE TO THE NEXT CATEGORY\n")
+input ( "enter next category please!:")
+Technology =["1.auto machanic\n","2.basic electricity\n","3.building construction\n","4.clothing and textile\n","5.basic electronics\n","6.food and nutrition\n","7.general metal work\n","8.home management\n","9.technical drawing\n","10.wood\n"]
+
+for item in Technology:
+  print (item)
+    
