@@ -1,0 +1,42 @@
+#print("Hello this program manages student data")
+
+import time
+
+time.sleep(1)
+
+rosemary = {"Fullname":"Rosemary John","Registration number":"FPI/HND/EEE/23/011","Grade":"A","Score":81,"GPA":3.56}
+
+
+john = {"Fullname":"John Fredrick","Registration number":"FPI/HND/EEE/23/012","Grade":"BC","Score":60,"GPA":3.36}
+
+
+abdul = {"Fullname":"Abdulmajeed Haruna","Registration number":"FPI/HND/EEE/23/041","Grade":"A","Score":84,"GPA":3.76}
+
+print("Hello This program manages students dad")
+
+print("Menu")
+
+print("1. view student data\n 2.Edit student data\n 3.Delete student data\n\n")
+
+print("Selected student bio data")
+
+user_input=input ("select entry:")
+
+print(f"you have entered{user_input}\n")
+
+if user_input == "1":
+   for key,value in rosemary.items():
+      print(f"{key}:{value}")
+      time.sleep(1)
+elif user_input=="2":
+   for key, value in john.items():
+      print(f"{key}:{value}")
+      time.sleep(1)
+elif user_input=="3":
+   for key, value in abdul.items():
+      print(f"{key}:{value}")
+      time.sleep(1)
+else:
+ print("Wrong entry,you are not the actual user please try again buddy")
+
+    
